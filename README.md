@@ -1,1 +1,1 @@
-### Rently Phase 1 Practice Fitness Project
+### Simple UI to count steps and compare it with target/goal
