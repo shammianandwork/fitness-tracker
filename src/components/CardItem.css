@@ -1,0 +1,31 @@
+.carditem {
+  margin-bottom: 2rem;
+  width: 90%;
+  height: 27%;
+  border-radius: 1rem;
+  background-color: #173689;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.carditem__userinfo {
+  display: flex;
+  flex-direction: row;
+}
+
+.carditem__stepsinfo {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 830px) {
+  .carditem {
+    width: 85%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+  }
+}

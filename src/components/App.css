@@ -1,0 +1,14 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f6c0a3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+  }
+}
